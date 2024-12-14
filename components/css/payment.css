@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.th-payment {
+  margin-top: 125px;
+  height: 100%;
+  width: 100%;
+}
+
+.th-payment i {
+  color: #008000;
+  font-size: 125px;
+  display: flex;
+  justify-content: center;
+}
+
+.th-payment h5 i {
+  color: #000000;
+  font-size: 100%;
+  margin: 35px 10px 0 10px;
+  display: inline-block;
+}
+
+.th-payment a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.3s;
+}
+
+.th-payment a h5:hover {
+  transform: scale(1.1);
+}

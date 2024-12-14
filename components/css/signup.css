@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+input{
+    width: 100%;
+    padding: 10px 20px;
+    outline:  none;
+    border-radius: 6px;
+    border: none;
+}
+.th-form{
+    width: 70%;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 40px 0;
+}
+form label{
+    color: white;
+    margin: 10px 0;
+}
+form button{
+    padding: 10px 40px;
+    border: none;
+    background: #000;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+form button a{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width:768px) {
+    .th-form{
+        width: 100%;
+    }
+}

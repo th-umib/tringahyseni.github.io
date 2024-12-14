@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+.th-payment {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+select {
+  text-align: center;
+}
+
+.th-cc input,
+label {
+  margin: 5px 0;
+}
+.th-cc input {
+  text-align: center;
+}
+
+.th-payment {
+  height: calc(100vh + 120px);
+}
+
+.th-cc .th-buttoni {
+  border: 1px solid #fff;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .th-payment {
+    height: auto;
+  }
+}

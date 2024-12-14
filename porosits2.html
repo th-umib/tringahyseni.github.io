@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPF - Pagesa me Kartel </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="shortcut icon" href="images/logoo.png">
+    <link rel="stylesheet" href="components/css/style.css">
+    <link rel="stylesheet" href="components/css/creditcard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="components/js/script.js"></script>
+  </head>
+<body id="mpf">
+
+    <!--NAVBAR-->
+    <header class="th-header">
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="height: 65px;"></a>
+              <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="tegjithapersonazhet.html">Personazhet</a>
+                  </li>
+                     
+                  <li class="nav-item">
+                    <a class="nav-link " href="aboutus.html">Rreth Nesh</a>
+                  </li>             
+                  
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item user-icon">
+                      <a class="nav-link" href="login.html">
+                        <i class="fas fa-user"></i> 
+                      </a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="th-payment container mx-auto my-4 rounded-2 text-white row d-flex align-items-center">
+        <div class="col-md-6">
+            <img src="images/s1.png" class="img-fluid p-2">
+        </div>
+        <div class="col-md-6">
+            <div class="th-top-text my-4">
+                <h1>Spiderman</h1>
+            </div>
+            <div class="th-price my-2">
+                <h4>
+                  30.00€
+                </h4>
+            </div>
+            <form role="article">
+                <label for="data">Zgjedh Daten:</label>
+                <input type="date" id="data" name="data">
+                <input type="submit">
+            </form>
+            <div class="th-cc">
+                <form class="payment-form" action="paymentdone.html">
+                  <h2 class="mt-4 mb-2">Payment Details</h2>
+            
+                  <div class="form-group">
+                    <label for="cardNumber">Numri i Karteles</label>
+                    <input type="text" class="form-control" id="cardNumber" placeholder="Enter card number" required>
+                  </div>
+            
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="expirationDate">Data e skadimit</label>
+                      <input type="text" class="form-control" id="expirationDate" placeholder="MM/YY" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="cvv">CVV</label>
+                      <input type="text" class="form-control" id="cvv" placeholder="CVV" required>
+                    </div>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="cardHolder">Emri dhe Mbiemri</label>
+                    <input type="text" class="form-control" id="cardHolder" placeholder="Enter cardholder name" required>
+                  </div>
+            
+                  <button type="submit" class="th-buttoni rounded-1 my-2 text-white">Vazhdo</button>
+                </form>
+              </div>
+        </div>
+    </div>
+    
+
+    <!--Footeri-->
+
+
+    <footer class="th-footer">
+      <div class="container">
+          <div class="th-mpf">
+              <p>&copy Maskota Per Femije 2024</p>
+          </div>
+        <div class="social-icons">
+          <a href="https://www.tiktok.com/@maskotaperfemije_"target="_blank"><i class="fab fa-tiktok"></i></a>
+          <a href="https://www.instagram.com/maskotaperfemije/am" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/maskotaperfemije/" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </footer>
+
+      <button onclick="topFunction()" id="myBtn" class="rounded-5 p2"><img src="images/arrow.png" class="img-fluid"></button>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</body>
+</html>

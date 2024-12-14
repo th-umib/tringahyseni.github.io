@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.th-login{
+    margin-top: 125px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.th-login i{
+    color: #008000;
+    font-size: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.th-login h5 i{
+    color: #fff;
+    font-size: 100%;
+    margin: 35px 10px 0 10px;
+    display: inline-block
+}
+
+.th-login a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.th-login a h5:hover{
+    transform: scale(1.1)                           ;
+}
